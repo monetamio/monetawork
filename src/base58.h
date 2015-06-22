@@ -272,10 +272,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 20, // Moneta addresses start with L
+        PUBKEY_ADDRESS = 50, // Moneta addresses start with M
         SCRIPT_ADDRESS = 5,
-        PUBKEY_ADDRESS_TEST = 14,
-        SCRIPT_ADDRESS_TEST = 196,
+        PUBKEY_ADDRESS_TEST = 21,
+        SCRIPT_ADDRESS_TEST = 192,
     };
 
     bool Set(const CKeyID &id) {
